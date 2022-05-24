@@ -1,0 +1,16 @@
+{
+    "Pentester": {
+        "inherits": ["admin"]
+    },
+    "Senior Pentester": {
+        "inherits":["admin"],
+        "allows": ["*"]
+    },
+    "Principal Pentester": {
+        "inherits":["admin"]
+    },
+    "Program Manager": {
+        "inherits":["admin"]
+    }
+
+}
